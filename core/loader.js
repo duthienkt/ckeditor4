@@ -141,7 +141,7 @@ if (!CKEDITOR.loader) {
 					CKEDITOR.loader.loadPending();
 				}
 
-				console.log('import ', scriptName, 'from ', scriptSrc);
+				// console.log('import ', scriptName, 'from ', scriptSrc);
 			},
 
 			/**
@@ -189,7 +189,7 @@ if (!CKEDITOR.loader) {
 				else {
 					// Append this script to the list of loaded scripts.
 					this.loadedScripts.push(scriptName);
-					console.info('import ', "'"+scriptSrc.replace('http://localhost:8080/', './')+"'");
+					// console.info('import ', "'"+scriptSrc.replace('http://localhost:8080/', './')+"'");
 				}
 			}
 		};
