@@ -1446,7 +1446,7 @@ CKEDITOR.plugins.add( 'dialogui', {
 
 							'window.parent.CKEDITOR.tools.callFunction(' + callNumber + ');',
 							'window.onbeforeunload = function() {window.parent.CKEDITOR.tools.callFunction(' + unloadNumber + ')}',
-						'</script>'
+						'</'+'script>'
 					].join( '' ) );
 
 					frameDocument.$.close();

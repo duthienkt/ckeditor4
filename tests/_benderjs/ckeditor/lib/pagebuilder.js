@@ -46,7 +46,7 @@ module.exports = {
 					'bender.configureEditor(',
 					JSON.stringify( data.ckeditor ),
 					');\n',
-					'})(bender);\n</script>'
+					'})(bender);\n</'+'script>'
 				);
 			}
 

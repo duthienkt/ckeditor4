@@ -79,7 +79,7 @@ CKEDITOR.htmlParser = function() {
 		 *		parser.onCDATA = function( cdata ) {
 		 *			alert( cdata ); // 'var hello;'
 		 *		} );
-		 *		parser.parse( '<script>var hello;</script>' );
+		 *		parser.parse( ' <script >var hello;< / script >' );
 		 *
 		 * @param {String} cdata The CDATA been found.
 		 */

@@ -441,7 +441,7 @@
 								'wasLoaded=1;' +
 							'}' +
 							( CKEDITOR.env.ie ? 'onload();' : 'document.addEventListener("DOMContentLoaded", onload, false );' ) +
-						'</script>';
+						'</'+'script>';
 
 					// For IE<9 add support for HTML5's elements.
 					// Note: this code must not be deferred.
@@ -449,7 +449,7 @@
 						bootstrapCode +=
 							'<script id="cke_shimscrpt">' +
 								'window.parent.CKEDITOR.tools.enableHtml5Elements(document)' +
-							'</script>';
+							'</'+'script>';
 					}
 
 					// IE<10 needs this hack to properly enable <base href="...">.
@@ -459,7 +459,7 @@
 							'<script id="cke_basetagscrpt">' +
 								'var baseTag = document.querySelector( "base" );' +
 								'baseTag.href = baseTag.href;' +
-							'</script>';
+							'</'+'script>';
 					}
 
 					data = data.replace( /(?=\s*<\/(:?head)>)/, bootstrapCode );

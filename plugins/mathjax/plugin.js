@@ -343,10 +343,10 @@
 									'MathJax.Hub.Queue( function() {' +
 										'getCKE().tools.callFunction(' + loadedHandler + ');' +
 									'} );' +
-								'</script>' +
+								'</'+'script>' +
 
 								// Load MathJax lib.
-								'<script src="' + ( editor.config.mathJaxLib ) + '"></script>' +
+								'<script src="' + ( editor.config.mathJaxLib ) + '"></'+'script>' +
 							'</head>' +
 							'<body style="padding:0;margin:0;background:transparent;overflow:hidden">' +
 								'<span id="preview"></span>' +

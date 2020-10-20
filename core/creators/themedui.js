@@ -48,13 +48,13 @@ CKEDITOR.replaceClass = 'ckeditor';
 	 * 				<meta charset="utf-8">
 	 * 				<title>CKEditor</title>
 	 * 				<!-- Make sure the path to CKEditor is correct. -->
-	 *				<script src="/ckeditor/ckeditor.js"></script>
+	 *				< script src="/ckeditor/ckeditor.js">< / script >
 	 *			</head>
 	 *			<body>
 	 *				<div id="editorSpace"></div>
-	 *				<script>
+	 *				< script >
 	 *					CKEDITOR.appendTo( 'editorSpace' );
-	 *				</script>
+	 *				< / script >
 	 *			</body>
 	 *		</html>
 	 *
@@ -95,16 +95,16 @@ CKEDITOR.replaceClass = 'ckeditor';
 	 *				<meta charset="utf-8">
 	 *				<title>CKEditor</title>
 	 *				<!-- Make sure the path to CKEditor is correct. -->
-	 *				<script src="/ckeditor/ckeditor.js"></script>
+	 *				<script src="/ckeditor/ckeditor.js">< / script >
 	 *			</head>
 	 *			<body>
 	 *				<textarea name="editor1"></textarea>
 	 *				<textarea name="editor2"></textarea>
 	 *				<textarea name="editor3"></textarea>
-	 *				<script>
+	 *				< script >
 	 *					// Replace all three <textarea> elements above with CKEditor instances.
 	 *					CKEDITOR.replaceAll();
-	 *				</script>
+	 *				< / script >
 	 *			</body>
 	 *		</html>
 	 *
